@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Gilroy';
+  font-size: bold;
+  font-weight: 700;
+  src: url('../public/fonts/Gilroy-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-size: normal;
+  font-weight: 400;
+  src: url('../public/fonts/Gilroy-Medium.woff') format('woff');
+}
+
+html {
+  font-family: 'Gilroy';
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.title {
+  font-size: 3.4rem;
+  font-weight: bold;
+  line-height: 4.2rem;
+  text-align: center;
+}
+
+.link {
+  color: #828282;
+  text-decoration: none;
+}
+
+.text {
+  color: #070707;
+}
+
+.section_bgc_grey {
+  background-color: #f6f6f6;
+}
+
+.splitter {
+  width: 100%;
+  height: 1px;
+  background-color: #828282;
+}

@@ -1,0 +1,18 @@
+.about {
+  width: 100%;
+  height: auto;
+
+  &__title {
+    padding: 12rem 0 1.8rem;
+  }
+
+  &__content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 11rem;
+  }
+
+  &__text {
+    text-align: center;
+  }
+}

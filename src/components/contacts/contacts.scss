@@ -1,0 +1,49 @@
+.contacts {
+  &__title {
+    padding-top: 11rem;
+  }
+
+  &__content {
+    padding: 2rem 0 12rem;
+  }
+
+  &__text {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4.5rem;
+  }
+
+  &__link {
+    display: block;
+    padding: 0 2rem;
+    transition: transform 0.2s linear;
+  }
+
+  &__link:hover {
+    transform: scale(120%);
+  }
+
+  &__ico {
+    width: 4rem;
+  }
+
+  &__sublinks {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__sublink {
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+
+  &__sublink:hover {
+    color: #000;
+  }
+}
