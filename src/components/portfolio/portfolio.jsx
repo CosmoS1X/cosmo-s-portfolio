@@ -2,10 +2,12 @@ import React from 'react';
 import './portfolio.scss';
 
 const Portfolio = () => (
-  <section className="portfolio section_bgc_grey">
-    <h2 className="portfolio__title title">Portfolio</h2>
-    <div className="portfolio__content">
-      My projects here
+  <section className="section section_bgc_grey">
+    <div className="wrapper">
+      <div className="portfolio">
+        <h2 className="portfolio__title title">Portfolio</h2>
+        <div className="portfolio__content">My projects here</div>
+      </div>
     </div>
   </section>
 );

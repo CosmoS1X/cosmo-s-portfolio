@@ -3,8 +3,8 @@ import photo from './img/photo1.jpg';
 import './intro.scss';
 
 const Intro = () => (
-  <div className="wrapper">
-    <div className="intro">
+  <div className="intro">
+    <div className="wrapper">
       <div className="intro__header">
         <h1 className="intro__title">
           <span>Konstantin</span>

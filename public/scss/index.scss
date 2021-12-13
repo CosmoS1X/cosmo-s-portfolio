@@ -1,15 +1,17 @@
+@import './colors';
+
 @font-face {
   font-family: 'Gilroy';
   font-size: bold;
   font-weight: 700;
-  src: url('../public/fonts/Gilroy-Bold.woff') format('woff');
+  src: url('../fonts/Gilroy-Bold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Gilroy';
   font-size: normal;
   font-weight: 400;
-  src: url('../public/fonts/Gilroy-Medium.woff') format('woff');
+  src: url('../fonts/Gilroy-Medium.woff') format('woff');
 }
 
 html {
@@ -21,13 +23,21 @@ body {
   margin: 0;
   font-size: 1.8rem;
   line-height: 2.2rem;
+  color: $textColor;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -39,16 +49,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .link {
-  color: #828282;
+  color: $linkColor;
   text-decoration: none;
 }
 
-.text {
-  color: #070707;
-}
-
-.section_bgc_grey {
-  background-color: #f6f6f6;
+.section {
+  &_bgc_grey {
+    background-color: #f6f6f6;
+  }
 }
 
 .splitter {
