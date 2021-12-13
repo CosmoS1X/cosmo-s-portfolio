@@ -13,7 +13,7 @@ import gitLogo from './img/git-logo.png';
 import './skills.scss';
 
 const Skills = () => (
-  <section className="section">
+  <section className="section" id="skills">
     <div className="wrapper">
       <div className="skills">
         <h2 className="skills__title title">Skills</h2>

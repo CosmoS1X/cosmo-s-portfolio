@@ -48,3 +48,26 @@
     color: #828282;
   }
 }
+
+@media screen and (max-width: 565px) {
+  .skills {
+    &__title {
+      padding: 8rem 0 5rem;
+    }
+
+    &__content {
+      margin-bottom: 4rem;
+    }
+
+    &__text {
+      margin-bottom: 7rem;
+    }
+    
+  }
+
+  .card {
+    &__inner {
+      margin-bottom: 3rem;
+    }
+  }
+}

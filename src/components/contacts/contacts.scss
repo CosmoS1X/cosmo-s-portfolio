@@ -35,6 +35,7 @@
 
   &__sublinks {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -46,5 +47,21 @@
 
   &__sublink:hover {
     color: #000;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .contacts {
+    &__title {
+      padding: 8rem 0 5rem;
+    }
+
+    &__content {
+      padding: 0 0 8rem;
+    }
+
+    &__link {
+      padding: 0 1rem;
+    }
   }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './about.scss';
 
 const About = () => (
-  <section className="section section_bgc_grey">
+  <section className="section section_bgc_grey" id="about">
     <div className="wrapper">
       <div className="about">
         <h2 className="about__title title">About me</h2>

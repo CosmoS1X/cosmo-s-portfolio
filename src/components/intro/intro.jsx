@@ -1,5 +1,6 @@
 import React from 'react';
-import photo from './img/photo1.jpg';
+import photoDesc from './img/photo-desc.jpg';
+import photoMob from './img/photo-mob.jpg';
 import './intro.scss';
 
 const Intro = () => (
@@ -27,7 +28,10 @@ const Intro = () => (
         </div>
       </div>
       <div className="intro__photo">
-        <img className="intro__photo-item" src={photo} alt="pic" />
+        <picture>
+          <source media="(max-width: 565px)" srcSet={photoMob} />
+          <img className="intro__photo-item" src={photoDesc} alt="pic" />
+        </picture>
       </div>
     </div>
   </div>

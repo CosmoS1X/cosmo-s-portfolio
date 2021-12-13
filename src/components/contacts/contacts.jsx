@@ -6,7 +6,7 @@ import githubIco from './img/github.svg';
 import './contacts.scss';
 
 const Contacts = () => (
-  <section className="section">
+  <section className="section" id="contacts">
     <div className="wrapper">
       <div className="contacts">
         <h2 className="contacts__title title">Contacts</h2>

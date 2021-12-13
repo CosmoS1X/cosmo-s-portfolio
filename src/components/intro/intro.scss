@@ -40,12 +40,41 @@
     height: 100%;
     background-color: #000;
     overflow: hidden;
-    margin-bottom: 100px;
+    margin-bottom: 10rem;
     border-radius: 5px;
   }
 
   &__photo-item {
     max-width: 100%;
-    transform: scale(101%);
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .intro {
+    &__header {
+      display: block;
+    }
+
+    &__title {
+      font-size: 3.4rem;
+      line-height: 4.5rem;
+      padding: 3rem 0 2rem;
+    }
+
+    &__subtitle {
+      padding-bottom: 3rem;
+    }
+
+    &__photo {
+      margin-bottom: 8rem;
+    }
+
+    &__photo-item {
+      width: 100%;
+    }
+
+    &__lang {
+      display: none;
+    }
   }
 }
