@@ -4,7 +4,7 @@ import photoMob from './img/photo-mob.jpg';
 import './intro.scss';
 
 const Intro = () => (
-  <div className="intro">
+  <div className="intro" id="home">
     <div className="wrapper">
       <div className="intro__header">
         <h1 className="intro__title">

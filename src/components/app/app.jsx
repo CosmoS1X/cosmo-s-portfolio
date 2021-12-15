@@ -9,16 +9,16 @@ import './app.scss';
 
 const App = () => (
   <div className="app">
-    <header>
+    <header className="header">
       <Navbar />
     </header>
-    <main>
+    <main className="main">
       <Intro />
       <About />
       <Skills />
       <Portfolio />
     </main>
-    <footer>
+    <footer className="footer">
       <Contacts />
     </footer>
   </div>

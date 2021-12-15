@@ -1,19 +1,7 @@
 .portfolio {
-  height: 500px;
-
-  &__title {
-    padding: 11rem 0 5rem;
-  }
+  height: 300px;
 
   &__content {
     text-align: center;
-  }
-}
-
-@media screen and (max-width: 565px) {
-  .portfolio {
-    &__title {
-      padding: 8rem 0 5rem;
-    }
   }
 }

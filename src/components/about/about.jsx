@@ -5,7 +5,7 @@ const About = () => (
   <section className="section section_bgc_grey" id="about">
     <div className="wrapper">
       <div className="about">
-        <h2 className="about__title title">About me</h2>
+        <h2 className="section__title title">About me</h2>
         <div className="about__content">
           <p className="about__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet repellat non,

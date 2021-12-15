@@ -1,31 +1,12 @@
 .about {
   width: 100%;
-  height: auto;
-
-  &__title {
-    padding: 12rem 0 8rem;
-  }
 
   &__content {
     max-width: 600px;
     margin: 0 auto;
-    padding-bottom: 11rem;
   }
 
   &__text {
-    padding: 0 2rem;
     text-align: center;
-  }
-}
-
-@media screen and (max-width: 565px) {
-  .about {
-    &__title {
-      padding: 8rem 0 5rem;
-    }
-
-    &__content {
-      padding-bottom: 8rem;
-    }
   }
 }

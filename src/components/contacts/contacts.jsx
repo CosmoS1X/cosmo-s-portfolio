@@ -9,7 +9,7 @@ const Contacts = () => (
   <section className="section" id="contacts">
     <div className="wrapper">
       <div className="contacts">
-        <h2 className="contacts__title title">Contacts</h2>
+        <h2 className="section__title title">Contacts</h2>
         <div className="contacts__content">
           <p className="contacts__text">
             <span>Want to know more or just chat?</span>

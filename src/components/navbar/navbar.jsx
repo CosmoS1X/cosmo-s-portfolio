@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="wrapper">
+    <div className="navbar-wrapper">
       <nav className="navbar" ref={navbar}>
         <div className="navbar__items">
           <div className="navbar__item">

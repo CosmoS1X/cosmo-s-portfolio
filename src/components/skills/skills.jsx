@@ -16,7 +16,7 @@ const Skills = () => (
   <section className="section" id="skills">
     <div className="wrapper">
       <div className="skills">
-        <h2 className="skills__title title">Skills</h2>
+        <h2 className="section__title title">Skills</h2>
         <div className="skills__content">
           <p className="skills__text">I work with technologies such as</p>
           <div className="cards">
