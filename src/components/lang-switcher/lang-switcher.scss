@@ -1,0 +1,35 @@
+.lang-switcher {
+  display: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+
+  &__button {
+    color: #828282;
+
+    &_active {
+      color: #070707;
+    }
+  }
+}
+
+@media screen and (min-width: 566px) {
+  .lang-switcher {
+    &_desk {
+      display: block;
+      transform: rotate(-90deg) translate(20%, 100%);
+    }
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .lang-switcher {
+    &_mob {
+      display: block;
+      font-size: 3.4rem;
+      position: absolute;
+      bottom: 8rem;
+      right: -3rem;
+      transform: rotate(90deg);
+    }
+  }
+}

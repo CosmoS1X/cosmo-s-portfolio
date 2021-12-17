@@ -56,3 +56,31 @@ p {
   color: $linkColor;
   text-decoration: none;
 }
+
+.button {
+  &_no-bg {
+    padding: 0;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  &_no-bg:hover {
+    opacity: 70%;
+  }
+
+  &_no-bg:focus {
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .button {
+    &_no-bg:focus {
+      opacity: 100%;
+    }
+  }
+}

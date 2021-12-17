@@ -1,31 +1,30 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './about.scss';
 
-const About = () => (
-  <section className="section section_bgc_grey" id="about">
-    <div className="wrapper">
-      <div className="about">
-        <h2 className="section__title title">About me</h2>
-        <div className="about__content">
-          <p className="about__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet repellat non,
-            quibusdam culpa eligendi? Sit explicabo veritatis possimus fuga deserunt voluptatem, eum
-            perferendis iusto? Quasi, voluptatem sequi. Eum, ex.
-          </p>
-          <p className="about__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia est quia ut
-            numquam enim eos dolor labore sapiente, itaque dolores in molestias perferendis quis
-            eligendi voluptates. Amet, quod. Saepe.
-          </p>
-          <p className="about__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit excepturi aliquid quidem
-            praesentium ad esse consectetur perferendis sunt placeat eius quia totam officia,
-            tempore commodi hic optio repellat quibusdam qui?
-          </p>
+const About = () => {
+  const { t } = useTranslation();
+
+  return (
+    <section className="section section_bgc_grey" id="about">
+      <div className="wrapper">
+        <div className="about">
+          <h2 className="section__title title">{t('nav.about')}</h2>
+          <div className="about__content">
+            <p className="about__text">
+              {t('about.p1')}
+            </p>
+            <p className="about__text">
+              {t('about.p2')}
+            </p>
+            <p className="about__text">
+              {t('about.p3')}
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 export default About;

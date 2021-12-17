@@ -1,10 +1,13 @@
 import React, { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import burgerIco from './img/burger.svg';
 import closeIco from './img/close.svg';
-import './navbar.scss';
+import LangSwitcher from '../lang-switcher';
+import './menu.scss';
 
-const Navbar = () => {
+const Menu = () => {
   const navbar = useRef();
+  const { t } = useTranslation();
 
   const menuHandler = () => {
     navbar.current.classList.toggle('navbar_active');
@@ -17,53 +20,37 @@ const Navbar = () => {
           <div className="navbar__items">
             <div className="navbar__item">
               <a href="#home" className="navbar__link link" onClick={menuHandler}>
-                Home
+                {t('nav.home')}
               </a>
             </div>
             <div className="navbar__item">
               <a href="#about" className="navbar__link link" onClick={menuHandler}>
-                About me
+                {t('nav.about')}
               </a>
             </div>
             <div className="navbar__item">
               <a href="#skills" className="navbar__link link" onClick={menuHandler}>
-                Skills
+                {t('nav.skills')}
               </a>
             </div>
             <div className="navbar__item">
               <a href="#portfolio" className="navbar__link link" onClick={menuHandler}>
-                Portfolio
+                {t('nav.portfolio')}
               </a>
             </div>
             <div className="navbar__item">
               <a href="#contacts" className="navbar__link link" onClick={menuHandler}>
-                Contacts
+                {t('nav.contacts')}
               </a>
             </div>
           </div>
-          <button
-            className="menu__button menu__button_no-bg"
-            type="button"
-            onClick={menuHandler}
-          >
+          <button className="menu__button menu__button_no-bg" type="button" onClick={menuHandler}>
             <img src={closeIco} alt="close-ico" />
           </button>
-          <div className="navbar__lang">
-            <span id="ru" className="navbar__lang-switcher">
-              RU
-            </span>
-            <span>&nbsp;|&nbsp;</span>
-            <span id="eng" className="navbar__lang-switcher navbar__lang-switcher_active">
-              ENG
-            </span>
-          </div>
+          <LangSwitcher type="mob" />
           <div className="splitter" />
         </nav>
-        <button
-          className="menu__button menu__button_no-bg"
-          type="button"
-          onClick={menuHandler}
-        >
+        <button className="menu__button menu__button_no-bg" type="button" onClick={menuHandler}>
           <img src={burgerIco} alt="burger-ico" />
         </button>
       </div>
@@ -71,4 +58,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Menu;
