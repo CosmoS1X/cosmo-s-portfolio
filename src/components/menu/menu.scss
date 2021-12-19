@@ -1,4 +1,9 @@
 .menu {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+
   &__wrapper {
     width: 100%;
     max-width: 946px;
@@ -33,6 +38,11 @@
 
   &__link {
     font-weight: bold;
+    color: #828282;
+
+    &_active {
+      color: #070707;
+    }
   }
 
   &__link:hover,
