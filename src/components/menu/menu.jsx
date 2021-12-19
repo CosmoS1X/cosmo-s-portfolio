@@ -14,8 +14,13 @@ const Menu = () => {
     navbar.current.classList.toggle('navbar_active');
   };
 
-  const linkHandler = () => {
+  const linkHandler = ({ target }) => {
     navbar.current.classList.remove('navbar_active');
+    const links = navbar.current.querySelectorAll('.navbar__link');
+    links.forEach((link) => {
+      link.classList.remove('navbar__link_active');
+    });
+    target.classList.add('navbar__link_active');
   };
 
   return (
