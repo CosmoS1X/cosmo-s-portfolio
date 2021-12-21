@@ -26,17 +26,14 @@
 }
 
 .navbar {
-  &__items {
+  &__links {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
-  &__item {
-    padding: 1.6rem 0;
-  }
-
   &__link {
+    padding: 1.6rem 0;
     font-weight: bold;
     color: #828282;
 
@@ -75,7 +72,7 @@
     background-color: #fff;
     transition: all 0.2s linear;
 
-    &__item {
+    &__link {
       width: 100%;
       padding: 4rem 0 2rem 2.6rem;
       font-size: 3.4rem;
