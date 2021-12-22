@@ -20,6 +20,9 @@ const About = () => {
             <p className="about__text">
               {t('about.p3')}
             </p>
+            <p className="about__text">
+              {t('about.p4')}
+            </p>
           </div>
         </div>
       </div>

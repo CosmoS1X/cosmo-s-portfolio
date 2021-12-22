@@ -15,9 +15,10 @@ export default {
       contacts: 'Contacts',
     },
     about: {
-      p1: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eveniet repellat non, quibusdam culpa eligendi? Sit explicabo veritatis possimus fuga deserunt voluptatem, eum perferendis iusto? Quasi, voluptatem sequi. Eum, ex.',
-      p2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia est quia ut numquam enim eos dolor labore sapiente, itaque dolores in molestias perferendis quis eligendi voluptates. Amet, quod. Saepe.',
-      p3: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit excepturi aliquid quidem praesentium ad esse consectetur perferendis sunt placeat eius quia totam officia, tempore commodi hic optio repellat quibusdam qui?',
+      p1: 'Hi, my name is Konstantin. I am a Junior Frontend developer from Kazan.',
+      p2: 'I am a graduate of the "Hexlet" programming school. Successfully completed the professional training program "Frontend Development".',
+      p3: 'I have no commercial experience, but I have a great aspiration to improve in Frontend development. I am looking for a team with which I will grow up as professional. I am open to proposal for cooperation.',
+      p4: 'The first steps are always the most difficult, but "Greatness from Small Beginnings"! Sic parvis magna!',
     },
     skills: {
       text: 'I work with technologies such as:',
