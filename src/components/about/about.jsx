@@ -20,11 +20,11 @@ const About = () => {
             <p className="about__text">{t('about.p4')}</p>
           </div>
           <div className="about__certificates">
-            <Fancybox options={{ infinite: true }}>
-              <a data-fancybox="gallery" href={certEng}>
+            <Fancybox options={{ infinite: false }}>
+              <a data-fancybox="certificate" href={certEng}>
                 <img className="about__img" src={certEng} alt="certificate-eng" />
               </a>
-              <a data-fancybox="gallery" href={certRus}>
+              <a data-fancybox="certificate" href={certRus}>
                 <img className="about__img" src={certRus} alt="certificate-rus" />
               </a>
             </Fancybox>
