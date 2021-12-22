@@ -1,12 +1,19 @@
 .about {
-  width: 100%;
-
   &__content {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 5rem;
   }
 
   &__text {
     text-align: center;
+  }
+
+  &__certificates {
+    text-align: center;
+  }
+
+  &__img {
+    width: 300px;
+    padding: 0.5rem;
   }
 }
