@@ -16,8 +16,6 @@ const About = () => {
           <div className="about__content">
             <p className="about__text">{t('about.p1')}</p>
             <p className="about__text">{t('about.p2')}</p>
-            <p className="about__text">{t('about.p3')}</p>
-            <p className="about__text">{t('about.p4')}</p>
           </div>
           <div className="about__certificates">
             <Fancybox options={{ infinite: false }}>
